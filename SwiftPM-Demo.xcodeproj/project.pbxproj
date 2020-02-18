@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B28038223FC8D0A00F42FA9 /* PackageALib in Frameworks */ = {isa = PBXBuildFile; productRef = 1B28038123FC8D0A00F42FA9 /* PackageALib */; };
 		1BF8710523F9628900855017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710423F9628900855017 /* AppDelegate.swift */; };
 		1BF8710723F9628900855017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710623F9628900855017 /* SceneDelegate.swift */; };
 		1BF8710923F9628900855017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710823F9628900855017 /* ContentView.swift */; };
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B28038223FC8D0A00F42FA9 /* PackageALib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +102,7 @@
 			);
 			name = "SwiftPM-Demo";
 			packageProductDependencies = (
+				1B28038123FC8D0A00F42FA9 /* PackageALib */,
 			);
 			productName = "SwiftPM-Demo";
 			productReference = 1BF8710123F9628900855017 /* SwiftPM-Demo.app */;
@@ -130,6 +133,7 @@
 			);
 			mainGroup = 1BF870F823F9628900855017;
 			packageReferences = (
+				1B28038023FC8D0A00F42FA9 /* XCRemoteSwiftPackageReference "SwiftPMTalk_A" */,
 			);
 			productRefGroup = 1BF8710223F9628900855017 /* Products */;
 			projectDirPath = "";
@@ -352,6 +356,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B28038023FC8D0A00F42FA9 /* XCRemoteSwiftPackageReference "SwiftPMTalk_A" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:BalazsSzamody/SwiftPMTalk_A.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B28038123FC8D0A00F42FA9 /* PackageALib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B28038023FC8D0A00F42FA9 /* XCRemoteSwiftPackageReference "SwiftPMTalk_A" */;
+			productName = PackageALib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1BF870F923F9628900855017 /* Project object */;
 }

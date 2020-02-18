@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PackageA",
+        "repositoryURL": "git@github.com:BalazsSzamody/SwiftPMTalk_A.git",
+        "state": {
+          "branch": null,
+          "revision": "79af46ad88b5d9c7c41e75acf81eeb01c5531d25",
+          "version": "0.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
