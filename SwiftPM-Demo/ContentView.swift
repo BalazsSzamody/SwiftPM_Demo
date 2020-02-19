@@ -8,12 +8,13 @@
 
 import SwiftUI
 import PackageA
+import PackageC
 import PackageB
 
 struct ContentView: View {
     var body: some View {
         VStack{
-            Text(PackageA().text)
+            PackageC.CustomText()
             Text(PackageB.text("Cocoaheads"))
         }
     }

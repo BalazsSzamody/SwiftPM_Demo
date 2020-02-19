@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B091F4323FCC8260085DD29 /* PackageC in Frameworks */ = {isa = PBXBuildFile; productRef = 1B091F4223FCC8260085DD29 /* PackageC */; };
+		1B091F4623FCC8720085DD29 /* PackageC in Frameworks */ = {isa = PBXBuildFile; productRef = 1B091F4523FCC8720085DD29 /* PackageC */; };
 		1B28038223FC8D0A00F42FA9 /* PackageALib in Frameworks */ = {isa = PBXBuildFile; productRef = 1B28038123FC8D0A00F42FA9 /* PackageALib */; };
 		1B28038523FC8D8E00F42FA9 /* PackageB in Frameworks */ = {isa = PBXBuildFile; productRef = 1B28038423FC8D8E00F42FA9 /* PackageB */; };
 		1BF8710523F9628900855017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710423F9628900855017 /* AppDelegate.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B091F4123FCBE790085DD29 /* PackageC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PackageC; path = ../PackageC; sourceTree = "<group>"; };
+		1B091F4423FCC86B0085DD29 /* PackageC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PackageC; path = ../PackageC; sourceTree = "<group>"; };
 		1BF8710123F9628900855017 /* SwiftPM-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftPM-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF8710423F9628900855017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF8710623F9628900855017 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B091F4323FCC8260085DD29 /* PackageC in Frameworks */,
+				1B091F4623FCC8720085DD29 /* PackageC in Frameworks */,
 				1B28038523FC8D8E00F42FA9 /* PackageB in Frameworks */,
 				1B28038223FC8D0A00F42FA9 /* PackageALib in Frameworks */,
 			);
@@ -54,7 +54,7 @@
 		1BF870F823F9628900855017 = {
 			isa = PBXGroup;
 			children = (
-				1B091F4123FCBE790085DD29 /* PackageC */,
+				1B091F4423FCC86B0085DD29 /* PackageC */,
 				1BF8710323F9628900855017 /* SwiftPM-Demo */,
 				1BF8710223F9628900855017 /* Products */,
 				1B080DFE23F96CB000DE32C2 /* Frameworks */,
@@ -110,7 +110,7 @@
 			packageProductDependencies = (
 				1B28038123FC8D0A00F42FA9 /* PackageALib */,
 				1B28038423FC8D8E00F42FA9 /* PackageB */,
-				1B091F4223FCC8260085DD29 /* PackageC */,
+				1B091F4523FCC8720085DD29 /* PackageC */,
 			);
 			productName = "SwiftPM-Demo";
 			productReference = 1BF8710123F9628900855017 /* SwiftPM-Demo.app */;
@@ -386,7 +386,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1B091F4223FCC8260085DD29 /* PackageC */ = {
+		1B091F4523FCC8720085DD29 /* PackageC */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PackageC;
 		};
