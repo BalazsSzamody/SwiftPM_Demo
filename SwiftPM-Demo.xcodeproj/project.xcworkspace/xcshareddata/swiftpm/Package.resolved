@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "StringExtensions",
+        "repositoryURL": "git@github.com:BalazsSzamody/cocoatest.git",
+        "state": {
+          "branch": "swiftPM",
+          "revision": "6deac9d3653e7a3c2f2de1a59f366c9299513675",
+          "version": null
+        }
+      },
+      {
         "package": "PackageA",
         "repositoryURL": "https://github.com/BalazsSzamody/SwiftPMTalk_A",
         "state": {

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B091F4623FCC8720085DD29 /* PackageC in Frameworks */ = {isa = PBXBuildFile; productRef = 1B091F4523FCC8720085DD29 /* PackageC */; };
 		1B28038523FC8D8E00F42FA9 /* PackageB in Frameworks */ = {isa = PBXBuildFile; productRef = 1B28038423FC8D8E00F42FA9 /* PackageB */; };
+		1BD2FB7123FD4FD000582AF2 /* StringExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD2FB7023FD4FD000582AF2 /* StringExtensions */; };
 		1BF8710523F9628900855017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710423F9628900855017 /* AppDelegate.swift */; };
 		1BF8710723F9628900855017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710623F9628900855017 /* SceneDelegate.swift */; };
 		1BF8710923F9628900855017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710823F9628900855017 /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD2FB7123FD4FD000582AF2 /* StringExtensions in Frameworks */,
 				1B091F4623FCC8720085DD29 /* PackageC in Frameworks */,
 				1B28038523FC8D8E00F42FA9 /* PackageB in Frameworks */,
 			);
@@ -108,6 +110,7 @@
 			packageProductDependencies = (
 				1B28038423FC8D8E00F42FA9 /* PackageB */,
 				1B091F4523FCC8720085DD29 /* PackageC */,
+				1BD2FB7023FD4FD000582AF2 /* StringExtensions */,
 			);
 			productName = "SwiftPM-Demo";
 			productReference = 1BF8710123F9628900855017 /* SwiftPM-Demo.app */;
@@ -139,6 +142,7 @@
 			mainGroup = 1BF870F823F9628900855017;
 			packageReferences = (
 				1B28038323FC8D8E00F42FA9 /* XCRemoteSwiftPackageReference "swiftpmtalk_b" */,
+				1BD2FB6F23FD4FD000582AF2 /* XCRemoteSwiftPackageReference "cocoatest" */,
 			);
 			productRefGroup = 1BF8710223F9628900855017 /* Products */;
 			projectDirPath = "";
@@ -371,6 +375,14 @@
 				minimumVersion = 0.0.1;
 			};
 		};
+		1BD2FB6F23FD4FD000582AF2 /* XCRemoteSwiftPackageReference "cocoatest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:BalazsSzamody/cocoatest.git";
+			requirement = {
+				branch = swiftPM;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -382,6 +394,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1B28038323FC8D8E00F42FA9 /* XCRemoteSwiftPackageReference "swiftpmtalk_b" */;
 			productName = PackageB;
+		};
+		1BD2FB7023FD4FD000582AF2 /* StringExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD2FB6F23FD4FD000582AF2 /* XCRemoteSwiftPackageReference "cocoatest" */;
+			productName = StringExtensions;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
