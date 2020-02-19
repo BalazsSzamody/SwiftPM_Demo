@@ -3,7 +3,7 @@
     "pins": [
       {
         "package": "PackageA",
-        "repositoryURL": "git@github.com:BalazsSzamody/SwiftPMTalk_A.git",
+        "repositoryURL": "https://github.com/BalazsSzamody/SwiftPMTalk_A",
         "state": {
           "branch": null,
           "revision": "79af46ad88b5d9c7c41e75acf81eeb01c5531d25",

@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import PackageA
 import PackageC
 import PackageB
 
