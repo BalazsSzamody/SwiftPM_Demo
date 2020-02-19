@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B28038223FC8D0A00F42FA9 /* PackageALib in Frameworks */ = {isa = PBXBuildFile; productRef = 1B28038123FC8D0A00F42FA9 /* PackageALib */; };
+		1B28038523FC8D8E00F42FA9 /* PackageB in Frameworks */ = {isa = PBXBuildFile; productRef = 1B28038423FC8D8E00F42FA9 /* PackageB */; };
 		1BF8710523F9628900855017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710423F9628900855017 /* AppDelegate.swift */; };
 		1BF8710723F9628900855017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710623F9628900855017 /* SceneDelegate.swift */; };
 		1BF8710923F9628900855017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8710823F9628900855017 /* ContentView.swift */; };
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B28038523FC8D8E00F42FA9 /* PackageB in Frameworks */,
 				1B28038223FC8D0A00F42FA9 /* PackageALib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +105,7 @@
 			name = "SwiftPM-Demo";
 			packageProductDependencies = (
 				1B28038123FC8D0A00F42FA9 /* PackageALib */,
+				1B28038423FC8D8E00F42FA9 /* PackageB */,
 			);
 			productName = "SwiftPM-Demo";
 			productReference = 1BF8710123F9628900855017 /* SwiftPM-Demo.app */;
@@ -134,6 +137,7 @@
 			mainGroup = 1BF870F823F9628900855017;
 			packageReferences = (
 				1B28038023FC8D0A00F42FA9 /* XCRemoteSwiftPackageReference "SwiftPMTalk_A" */,
+				1B28038323FC8D8E00F42FA9 /* XCRemoteSwiftPackageReference "swiftpmtalk_b" */,
 			);
 			productRefGroup = 1BF8710223F9628900855017 /* Products */;
 			projectDirPath = "";
@@ -366,6 +370,14 @@
 				minimumVersion = 0.0.2;
 			};
 		};
+		1B28038323FC8D8E00F42FA9 /* XCRemoteSwiftPackageReference "swiftpmtalk_b" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://fr3qfly@bitbucket.org/fr3qfly/swiftpmtalk_b.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -373,6 +385,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1B28038023FC8D0A00F42FA9 /* XCRemoteSwiftPackageReference "SwiftPMTalk_A" */;
 			productName = PackageALib;
+		};
+		1B28038423FC8D8E00F42FA9 /* PackageB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B28038323FC8D8E00F42FA9 /* XCRemoteSwiftPackageReference "swiftpmtalk_b" */;
+			productName = PackageB;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

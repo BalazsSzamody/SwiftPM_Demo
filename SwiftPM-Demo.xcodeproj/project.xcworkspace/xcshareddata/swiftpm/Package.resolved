@@ -9,6 +9,15 @@
           "revision": "79af46ad88b5d9c7c41e75acf81eeb01c5531d25",
           "version": "0.0.2"
         }
+      },
+      {
+        "package": "PackageB",
+        "repositoryURL": "https://fr3qfly@bitbucket.org/fr3qfly/swiftpmtalk_b.git",
+        "state": {
+          "branch": null,
+          "revision": "d5d2f3403721527b08ead4be88ef30a81da0a7bb",
+          "version": "0.0.1"
+        }
       }
     ]
   },
