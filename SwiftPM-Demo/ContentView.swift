@@ -14,6 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Text(PackageA().text)
+            Text(PackageB.text("Cocoaheads"))
         }
     }
 }
