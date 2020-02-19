@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B091F4123FCBE790085DD29 /* PackageC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = PackageC; path = ../PackageC; sourceTree = "<group>"; };
 		1BF8710123F9628900855017 /* SwiftPM-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftPM-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF8710423F9628900855017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF8710623F9628900855017 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		1BF870F823F9628900855017 = {
 			isa = PBXGroup;
 			children = (
+				1B091F4123FCBE790085DD29 /* PackageC */,
 				1BF8710323F9628900855017 /* SwiftPM-Demo */,
 				1BF8710223F9628900855017 /* Products */,
 				1B080DFE23F96CB000DE32C2 /* Frameworks */,
